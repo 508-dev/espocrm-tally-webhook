@@ -1,0 +1,13 @@
+{
+    "entity": true,
+    "layouts": true,
+    "tab": true,
+    "acl": true,
+    "customizable": true,
+    "isCustom": true,
+    "type": "Base",
+    "module": "Custom",
+    "importable": false,
+    "createable": false,
+    "exportable": true
+}

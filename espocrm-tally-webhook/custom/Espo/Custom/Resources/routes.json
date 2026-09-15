@@ -1,0 +1,8 @@
+[
+    {
+        "route": "/TallyWebhook/:secret",
+        "method": "post",
+        "actionClassName": "Espo\\Custom\\Tools\\TallyWebhook\\Api\\PostWebhook",
+        "noAuth": true
+    }
+]

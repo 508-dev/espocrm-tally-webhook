@@ -1,0 +1,12 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [{"name": "number"}, {"name": "status"}],
+            [{"name": "formName"}, {"name": "contact"}],
+            [{"name": "errorMessage", "fullWidth": true}],
+            [{"name": "payload", "fullWidth": true}],
+            [{"name": "createdAt"}, false]
+        ]
+    }
+]

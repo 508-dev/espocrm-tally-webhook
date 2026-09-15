@@ -1,0 +1,7 @@
+# EspoCRM credentials / secrets for this co-op's own instance -- never publish
+.env
+
+# Internal skill-taxonomy working files -- not part of the published extension
+skill-taxonomy-mapping.csv
+skills-for-tally-curated.txt
+skills-for-tally-full.txt

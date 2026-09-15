@@ -1,0 +1,7 @@
+[
+    {"name": "number", "link": true, "widthPx": 60},
+    {"name": "status", "widthPx": 110},
+    {"name": "formName", "widthPx": 140},
+    {"name": "contact"},
+    {"name": "createdAt", "widthPx": 160}
+]

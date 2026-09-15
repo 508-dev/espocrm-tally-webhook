@@ -1,0 +1,10 @@
+{
+    "iconClass": "fas fa-plug",
+    "color": "#6b5ce0",
+    "menu": {
+        "list": {
+            "buttons": [],
+            "dropdown": []
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "fields": {
+        "number": {
+            "type": "autoincrement",
+            "index": true,
+            "readOnly": true
+        },
+        "status": {
+            "type": "enum",
+            "options": ["created", "duplicate", "error"],
+            "style": {
+                "created": "success",
+                "duplicate": "warning",
+                "error": "danger"
+            },
+            "required": true
+        },
+        "formName": {
+            "type": "varchar",
+            "maxLength": 100
+        },
+        "errorMessage": {
+            "type": "text"
+        },
+        "payload": {
+            "type": "jsonObject"
+        },
+        "contact": {
+            "type": "link"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "contact": {
+            "type": "belongsTo",
+            "entity": "Contact"
+        }
+    },
+    "collection": {
+        "orderBy": "number",
+        "order": "desc"
+    }
+}
